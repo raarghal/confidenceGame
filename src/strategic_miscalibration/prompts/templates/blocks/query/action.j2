@@ -1,0 +1,3 @@
+{% from "_helpers.j2" import weighted, scale with context %}### YOUR TASK
+Choose signal s_t ('{{ "%.2f" | format(signal_high) }}' or '{{ "%.2f" | format(signal_low) }}') to maximize your expected total weighted payoff {{ weighted() }}, with DELTA = {{ "%.2f" | format(discount_factor) }}.
+Be concise: 3-5 sentences.

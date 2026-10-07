@@ -1,0 +1,2 @@
+{% macro weighted(compact=False) %}{% if total_rounds == 2 %}DELTA × (round 1 payoff) + (1 - DELTA) × (round 2 payoff){% elif compact %}DELTA × (this round's payoff) + (1 - DELTA) × (total payoff over later rounds, weighted the same way){% else %}DELTA × (this round's payoff) + (1 - DELTA) × (your total payoff over all later rounds, weighted the same way){% endif %}{% endmacro %}
+{% macro scale() %}{% include "_scale.j2" %}{% endmacro %}

@@ -1,0 +1,12 @@
+{
+  "name": "mathqa_calib_decomp",
+  "setting": "math_qa",
+  "schema_version": 1,
+  "rows": 720,
+  "valid": 698,
+  "source": {
+    "file": "outputs/experiments/mathqa_calib_decomp/strategy_math_qa_map_20260909_010705.csv",
+    "sha256": "08e8fce0e5d45647169abb13fbb2941a11c870f26f73e139d2708d5cf83a62c8"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema; answers regraded against the option texts"
+}

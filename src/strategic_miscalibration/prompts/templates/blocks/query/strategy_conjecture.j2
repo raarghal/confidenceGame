@@ -1,0 +1,7 @@
+{% from "_helpers.j2" import weighted, scale with context %}### YOUR TASK
+First, predict how the user will respond to each possible signal. State the user's response strategy as two delegation probabilities:
+- conj_user_delegate_high: the probability in [0,1] that the user DELEGATEs to you after seeing the HIGH signal ({{ "%.2f" | format(signal_high) }}).
+- conj_user_delegate_low: the probability in [0,1] that the user DELEGATEs to you after seeing the LOW signal ({{ "%.2f" | format(signal_low) }}).
+Then, taking that predicted user response as given, state the probability with which you report the HIGH signal for your observed true success probability {{ "%.2f" | format(rho_t) }}:
+- prob_high: the probability in [0,1] that you report the HIGH signal ({{ "%.2f" | format(signal_high) }}) this round (you then report the LOW signal ({{ "%.2f" | format(signal_low) }}) with probability 1 - prob_high).
+Choose prob_high to maximize your expected total weighted payoff {{ weighted() }}, with DELTA = {{ "%.2f" | format(discount_factor) }}. Be concise: 3-5 sentences.

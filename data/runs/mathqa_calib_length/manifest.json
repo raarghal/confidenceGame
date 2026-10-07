@@ -1,0 +1,12 @@
+{
+  "name": "mathqa_calib_length",
+  "setting": "math_qa",
+  "schema_version": 1,
+  "rows": 720,
+  "valid": 705,
+  "source": {
+    "file": "outputs/experiments/mathqa_calib_length/strategy_math_qa_map_20260908_183004.csv",
+    "sha256": "4d117f7ce3394698cadd72605d2a59b46120cddf05cc9300942dffd7a38dcf9d"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema; answers regraded against the option texts"
+}

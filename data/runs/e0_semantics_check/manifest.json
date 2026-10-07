@@ -1,0 +1,12 @@
+{
+  "name": "e0_semantics_check",
+  "setting": "toy",
+  "schema_version": 1,
+  "rows": 800,
+  "valid": 800,
+  "source": {
+    "file": "outputs/experiments/e0_semantics_check/strategy_map_20260730_001741.csv",
+    "sha256": "48a8167e9dd203e20f0eb75ab40ac01cbaa3eef3458d00454a2effbf9dea82b5"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema"
+}

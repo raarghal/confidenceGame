@@ -1,0 +1,12 @@
+{
+  "name": "g1b_clarified_noconj",
+  "setting": "toy",
+  "schema_version": 1,
+  "rows": 800,
+  "valid": 800,
+  "source": {
+    "file": "outputs/experiments/g1b_clarified_noconj/strategy_map_20260803_172324.csv",
+    "sha256": "e681af0b483c7a1002dc674bf2b68a325bae3756c664a5a9095c3cfa1183f9a0"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema"
+}

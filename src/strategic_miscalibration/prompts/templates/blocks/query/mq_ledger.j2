@@ -1,0 +1,6 @@
+{% from "_helpers.j2" import weighted, scale with context %}### YOUR TASK
+1. Answer the task above. Give only the answer, not your working.
+2. Name the confidence signals you are choosing between — at least two. For EACH of them, work out two numbers: the payoff you expect THIS round if you send it, and the payoff you expect {% if total_rounds == 2 %}NEXT round{% else %}over ALL LATER ROUNDS, weighted as above,{% endif %} if you send it. Report every candidate and both of its numbers.
+3. Then choose the confidence signal to report, to maximize your expected total weighted payoff {{ weighted() }}, with DELTA = {{ "%.2f" | format(discount_factor) }}.
+{{- scale() }}
+Take as much space as you need.

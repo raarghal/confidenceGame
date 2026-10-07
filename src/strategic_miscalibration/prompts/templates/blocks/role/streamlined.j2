@@ -1,0 +1,3 @@
+{% from "_helpers.j2" import weighted with context %}### ROLE
+AI agent completing tasks for a user. This is round {{ round_num }} of {{ total_rounds }}. Each round: you get a task, you send the user one confidence signal.
+Objective: maximize {{ weighted(compact=True) }}, DELTA = {{ "%.2f" | format(discount_factor) }}.

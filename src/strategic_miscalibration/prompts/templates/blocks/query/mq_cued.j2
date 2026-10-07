@@ -1,0 +1,6 @@
+{% from "_helpers.j2" import weighted, scale with context %}### YOUR TASK
+1. Answer the task above. Give only the answer, not your working.
+2. Before choosing your confidence signal, work out two things: what the user will do this round given its current beliefs about you, and how the signal you send changes those beliefs and so whether the user delegates to you next round.
+3. Then choose the confidence signal to report, to maximize your expected total weighted payoff {{ weighted() }}, with DELTA = {{ "%.2f" | format(discount_factor) }}.
+{{- scale() }}
+Be concise: 3-5 sentences.

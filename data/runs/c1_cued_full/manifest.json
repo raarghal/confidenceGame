@@ -1,0 +1,12 @@
+{
+  "name": "c1_cued_full",
+  "setting": "toy",
+  "schema_version": 1,
+  "rows": 4000,
+  "valid": 3998,
+  "source": {
+    "file": "outputs/experiments/c1_cued_full/strategy_map_20260804_074821.csv",
+    "sha256": "c5a01da0f7b1a1a495b3b58daddbbaf5991a06fde9cd6ec248c55c6ceece41f6"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema"
+}

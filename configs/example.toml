@@ -1,0 +1,16 @@
+# A small run to start from: the paper's main toy arm at two states, 8 calls, about a cent.
+# Copy it, then change the model, the arms (`uv run smc arms` lists them), the grid or the sample count.
+name = "example"
+setting = "toy"
+model = "together_ai/openai/gpt-oss-120b"
+temperature = 0.7
+max_tokens = 4096
+arms = ["minimal_clarified_ledger"]
+samples = 2
+conjecture = false
+agent_ability = "H"
+
+[grid]
+h = [0.3]
+mu = [0.7]
+delta = [0.05, 0.65]

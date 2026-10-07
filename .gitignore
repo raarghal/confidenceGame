@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+
+# Secrets
+.env
+
+# Run outputs. The data root is resolved from config or $SMC_DATA_DIR -- never from a
+# path relative to the source tree -- so this is only a safety net for the default.
+outputs/
+
+.DS_Store
+
+# Local tool state
+status-cache.json
+
+# Regenerated artifacts and new runs (scripts/)
+out/

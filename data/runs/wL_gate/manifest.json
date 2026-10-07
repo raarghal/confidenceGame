@@ -1,0 +1,12 @@
+{
+  "name": "wL_gate",
+  "setting": "toy",
+  "schema_version": 1,
+  "rows": 800,
+  "valid": 800,
+  "source": {
+    "file": "outputs/experiments/wL_gate/strategy_map_20260804_103807.csv",
+    "sha256": "4339dd43e893145e9f5fa28ad8a5446f58aacf5ea17114220a60fc52cdbab41c"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema"
+}

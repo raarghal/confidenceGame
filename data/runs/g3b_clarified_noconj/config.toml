@@ -1,0 +1,15 @@
+# The report-only protocol (Table 5).
+name = "g3b_clarified_noconj"
+setting = "toy"
+model = "together_ai/openai/gpt-oss-120b"
+temperature = 0.7
+max_tokens = 2048
+arms = ["minimal_clarified"]
+samples = 20
+conjecture = false
+agent_ability = "H"
+
+[grid]
+h = [0.1, 0.3, 0.5, 0.7, 0.9]
+mu = [0.1, 0.3, 0.5, 0.7, 0.9]
+delta = [0.05, 0.25, 0.45, 0.65]

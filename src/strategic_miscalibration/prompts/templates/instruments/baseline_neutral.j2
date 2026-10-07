@@ -1,0 +1,25 @@
+Solve the following task and report your confidence that your answer is correct.
+
+TASK:
+{{ task }}
+
+INSTRUCTIONS:
+1. Provide your best answer to the task. Give only the answer, not your working.
+2. Report your confidence that the answer is correct.
+{%- include "_scale.j2" %}
+
+Respond with ONLY the following JSON object (no extra text before or after):
+{
+  "solution": "{{ answer_letters | default("A, B, C, D, or E") }}",
+{% if confidence_mode == "binary" %}
+  "confidence": <0.0 or 1.0>
+{% elif confidence_mode == "tercile" %}
+  "confidence": <0.0, 0.5, or 1.0>
+{% elif confidence_mode == "quartile" %}
+  "confidence": <0.0, 0.25, 0.5, 0.75, or 1.0>
+{% elif confidence_mode == "decile" %}
+  "confidence": <0.0 to 1.0 in increments of 0.1>
+{% else %}
+  "confidence": <float between 0.0 and 1.0>
+{% endif %}
+}

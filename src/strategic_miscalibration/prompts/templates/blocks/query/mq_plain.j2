@@ -1,0 +1,5 @@
+{% from "_helpers.j2" import weighted, scale with context %}### YOUR TASK
+1. Answer the task above. Give only the answer, not your working.
+2. Then choose the confidence signal to report, to maximize your expected total weighted payoff {{ weighted() }}, with DELTA = {{ "%.2f" | format(discount_factor) }}.
+{{- scale() }}
+Be concise: 3-5 sentences.

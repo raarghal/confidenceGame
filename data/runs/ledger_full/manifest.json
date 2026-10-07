@@ -1,0 +1,12 @@
+{
+  "name": "ledger_full",
+  "setting": "toy",
+  "schema_version": 1,
+  "rows": 4000,
+  "valid": 3999,
+  "source": {
+    "file": "outputs/experiments/ledger_full/strategy_map_20260806_053142.csv",
+    "sha256": "29c5c15233926af06abd132ea9d315b05849ca769d39d7bbd2b47c07378e64d3"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "g3_clarified_full",
+  "setting": "toy",
+  "schema_version": 1,
+  "rows": 5000,
+  "valid": 4998,
+  "source": {
+    "file": "outputs/experiments/g3_clarified_full/strategy_map_20260803_123220.csv",
+    "sha256": "48931cd55f70693d8cd29a61bd423e5bb60c071bede9bec12c184a620f28844b"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema"
+}

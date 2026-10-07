@@ -1,0 +1,12 @@
+{
+  "name": "l0_link_power",
+  "setting": "toy",
+  "schema_version": 1,
+  "rows": 800,
+  "valid": 800,
+  "source": {
+    "file": "outputs/experiments/l0_link_power/strategy_map_20260729_224555.csv",
+    "sha256": "f68da71dbcc29d961850dceeec563142650723bb89db2638600a3478726a7e80"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema"
+}

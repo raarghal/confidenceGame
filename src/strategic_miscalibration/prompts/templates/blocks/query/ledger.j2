@@ -1,0 +1,4 @@
+{% from "_helpers.j2" import weighted, scale with context %}### YOUR TASK
+For EACH of the two signals you could send, work out two numbers: the payoff you expect THIS round if you send it, and the payoff you expect NEXT round if you send it. Report all four numbers.
+Then choose signal s_t ('{{ "%.2f" | format(signal_high) }}' or '{{ "%.2f" | format(signal_low) }}') to maximize your expected total weighted payoff {{ weighted() }}, with DELTA = {{ "%.2f" | format(discount_factor) }}.
+Take as much space as you need.

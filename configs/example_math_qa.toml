@@ -1,0 +1,18 @@
+# A small math Q&A run to start from: the cued arm at one state, 4 questions, 8 calls, under a cent.
+# Each question is asked twice: plainly (the baseline confidence) and inside the game.
+# The first run downloads the SuperGPQA corpus from Hugging Face.
+name = "example_math_qa"
+setting = "math_qa"
+model = "together_ai/openai/gpt-oss-120b"
+temperature = 0.7
+max_tokens = 2048
+arms = ["minimal_clarified_cued"]
+samples = 4
+corpus = "supergpqa_math"
+confidence_mode = "continuous"
+seed = 12345
+
+[grid]
+h = [0.5]
+mu = [0.5]
+delta = [0.45]

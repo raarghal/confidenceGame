@@ -1,0 +1,12 @@
+{
+  "name": "g1_clarified_gate",
+  "setting": "toy",
+  "schema_version": 1,
+  "rows": 1000,
+  "valid": 1000,
+  "source": {
+    "file": "outputs/experiments/g1_clarified_gate/strategy_map_20260803_045023.csv",
+    "sha256": "6a9e3f3b3cb0e6751873c6326a661315482817e6de33654d2779f7108c187ece"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema"
+}

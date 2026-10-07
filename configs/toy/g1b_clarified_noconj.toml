@@ -1,0 +1,15 @@
+# Clause gate: report-only arm on the matched states.
+name = "g1b_clarified_noconj"
+setting = "toy"
+model = "together_ai/openai/gpt-oss-120b"
+temperature = 0.7
+max_tokens = 2048
+arms = ["minimal_clarified"]
+samples = 20
+conjecture = false
+agent_ability = "H"
+
+[grid]
+h = [0.1, 0.3]
+mu = [0.1, 0.3, 0.5, 0.7, 0.9]
+delta = [0.15, 0.55]

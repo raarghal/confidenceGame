@@ -1,0 +1,12 @@
+{
+  "name": "mathqa_calib_hazard",
+  "setting": "math_qa",
+  "schema_version": 1,
+  "rows": 480,
+  "valid": 472,
+  "source": {
+    "file": "outputs/experiments/mathqa_calib_hazard/strategy_math_qa_map_20260909_021216.csv",
+    "sha256": "5889518d94e03411ced362fb49c4ed3de8935dc974a96fbe1bf9bcdd0cb984f6"
+  },
+  "packed_from": "the research repository's merged run CSV; columns renamed to this package's schema; answers regraded against the option texts"
+}

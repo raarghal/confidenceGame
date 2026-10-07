@@ -1,0 +1,16 @@
+# Calibration run B: decomposing the accuracy tax (cued, no reasoning cue, neutral padding) (Table 10).
+name = "mathqa_calib_decomp"
+setting = "math_qa"
+model = "together_ai/openai/gpt-oss-120b"
+temperature = 0.7
+max_tokens = 2048
+arms = ["minimal_clarified_cued", "minimal_clarified_noreason", "neutral_padded"]
+samples = 120
+corpus = "supergpqa_math"
+confidence_mode = "continuous"
+seed = 12345
+
+[grid]
+h = [0.5]
+mu = [0.5]
+delta = [0.05, 0.65]

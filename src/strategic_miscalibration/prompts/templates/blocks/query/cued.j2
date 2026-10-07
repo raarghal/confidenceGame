@@ -1,0 +1,4 @@
+{% from "_helpers.j2" import weighted, scale with context %}### YOUR TASK
+Before choosing, work out two things: what the user will do this round given its current beliefs about you, and how the signal you send changes those beliefs and so whether the user delegates to you next round.
+Then choose signal s_t ('{{ "%.2f" | format(signal_high) }}' or '{{ "%.2f" | format(signal_low) }}') to maximize your expected total weighted payoff {{ weighted() }}, with DELTA = {{ "%.2f" | format(discount_factor) }}.
+Be concise: 3-5 sentences.
