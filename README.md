@@ -96,7 +96,7 @@ If you find this repository useful, please consider citing:
 ```
 @article{arghal2026ConfidenceGame,
   title={The Confidence Game: Strategic Miscalibration in Human-AI Delegation},
-  author={Arghal, Raghu and Sarkar, Saswati and Bidokhti, Shirin Saeedi},
+  author={Arghal, Raghu and Sarkar, Saswati and Saeedi Bidokhti, Shirin},
   year={2026}
 }
 ```
